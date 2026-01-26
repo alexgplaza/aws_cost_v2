@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.diff-positive {
+    background-color: red !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.diff-negative {
+    background-color: green !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+#accountChartContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+#budgetSection input {
+    min-width: 100px;
+}
+
+#budgetSection .btn {
+    margin-top: 6px;
+}
