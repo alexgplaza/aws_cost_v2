@@ -19,9 +19,9 @@ original_df = None
 @app.route("/", methods=["GET", "POST"])
 ## prueba
 @app.route("/", methods=["GET", "POST"])
-def index():
+def index(): 
     """
-    Página principal:
+    Página principal prueba:
       - POST: recibe 2 CSVs (file_graph y file_table).
         * file_graph -> gráficos/comparativas/presupuesto (detalle)
         * file_table -> primera tabla (resumen, agregado multi-mes por Account)
